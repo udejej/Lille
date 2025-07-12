@@ -37,8 +37,8 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["Lille Interactive", "Créer un ticket si problème avec WL & Verif"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusMessages = ["Lille Interactive", "Sortie du jeu en juillet"];
+const statusTypes = [ 'dnd' ];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
